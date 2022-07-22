@@ -1,0 +1,8 @@
+type Query {
+    shows(title: String): [Show]
+}
+
+type Show {
+    title: String!
+    releaseYear: Int
+}
